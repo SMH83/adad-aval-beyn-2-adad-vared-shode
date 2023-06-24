@@ -1,4 +1,7 @@
-﻿namespace project
+\\حل شده در کلاس
+
+using system;
+namespace project
 {
     class test1
     {
