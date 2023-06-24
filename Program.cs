@@ -25,7 +25,6 @@
             for (int i = input1; i <= input2; i++)
             {
                 int c = 0;
-                int x = 1;
                 for (int j = 1; j <= i - 1; j++)
                 {
                     if (i % j == 0)
@@ -33,14 +32,10 @@
                         c++;
                     }
                 }
-                for (x = 1; x <= i; x++)
-                {
-                    if (c < 2)
-                    {
-                        Console.WriteLine(x);
-                        Console.WriteLine(i);
-                    }
-                }
+                  if (c < 2)
+                  {
+                   Console.WriteLine(i);
+                  }
             }
         }
     }
